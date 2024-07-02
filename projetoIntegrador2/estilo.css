@@ -1,0 +1,31 @@
+/* Criação de classes CSS */
+
+.capa{
+    background: url(Image/CapaBancoTalentos.png) no-repeat fixed center #F7F7F7;
+    background-size: 60% 60%;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 27);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.botaocapa{
+    display: flex;
+    justify-content: center;
+    gap: .1%;
+    position: absolute;
+    bottom: 20px; /* Ajuste esta distância da parte inferior conforme necessário */
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.alinhamento{
+    display: flex;
+    justify-content: center;
+    gap: .1%;
+}
